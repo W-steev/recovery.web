@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myflixer</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/myflixer.css">
+ </head>
+<body>
+  <div class="background-container"></div>
+  <div class="main">
+       <nav>
+        <ul class="js-sidebar sidebar">
+          <li class="js-close"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path class="close" d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV shows</a></li>
+          <li><a href="#">Top IMDB</a></li>
+          </ul>
+
+        <ul>
+          <li><a href="#">
+            <img class="myflixer-logo" src="logo/logo-myflixer.png" alt="">
+          </a></li>
+          <li class="hideLinks"><a href="home.html">Home</a></li>
+          <li class="hideLinks"><a href="#">Movies</a></li>
+          <li class="hideLinks"><a href="#">TV shows</a></li>
+          <li class="hideLinks"><a href="#">Top IMDB</a></li>
+          <li class="js-menu menu-icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path class="menu" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg><span>Menu</span></a></li>
+        </ul>
+      </nav>
+
+      <div class="content-container">
+
+        <div class="big-logo-container"><a href="myflixer.html"><img class="big-logo" src="logo/logo-myflixer.png" alt=""></a>
+        </div>
+
+        <div class="title">MyFlixer</div>
+        
+        <div class="middle-section">
+          <input type="text" placeholder="Enter keywords..." class="search-bar">
+          <button class="search-button"><img class="search-icon" src="icons/search_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+        </div>
+        
+        <div class="view-text-container"><a href="home.html" class="view-text">View Full Site</a> 
+          <img class="circle-icon" src="icons/arrow_circle_right_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+      </div>
+
+      </div>
+  </div>
+<script src="scripts/sidebar.js"></script>
+</body>
+</html>
